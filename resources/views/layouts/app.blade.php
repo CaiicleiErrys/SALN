@@ -170,30 +170,18 @@
 
                                 <li class="menu-title">DATA TABLE</li>
                                 <li>
-                                    <a href="{{ route('leave.admin') }}" class="waves-effect">
+                                    <a href="#" class="waves-effect">
                                         <i class="fab fa-dev"></i><span class="badge rounded-pill bg-success float-end"></span>
-                                        <span>Application for Leave</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('cert.appearance.admin') }}" class="waves-effect">
-                                        <i class="fab fa-dev"></i><span class="badge rounded-pill bg-success float-end"></span>
-                                        <span>Certificate of Appearance</span>
+                                        <span>SALN FORM</span>
                                     </a>
                                 </li>
 {{-- USER SIDE --}}
                             @else
                                 <li class="menu-title">Form & Table</li>
                                 <li>
-                                    <a href="{{ route('leave.user') }}" class="waves-effect">
+                                    <a href="#" class="waves-effect">
                                         <i class="fab fa-dev"></i><span class="badge rounded-pill bg-success float-end"></span>
                                         <span>Application for Leave</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('cert.appearance') }}" class="waves-effect">
-                                        <i class="fab fa-dev"></i><span class="badge rounded-pill bg-success float-end"></span>
-                                        <span>Certificate of Appearance</span>
                                     </a>
                                 </li>
                             @endif
